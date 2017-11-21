@@ -1,0 +1,8 @@
+/CastException.class
+/IllegalInputException.class
+/LexicalException.class
+/RedefinitionException.class
+/SemanticException.class
+/SyntacticException.class
+/VariableIsNotDefinedException.class
+/VariableIsNotInitializedException.class

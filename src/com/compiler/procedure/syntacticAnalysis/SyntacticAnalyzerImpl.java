@@ -66,8 +66,9 @@ public class SyntacticAnalyzerImpl implements SyntacticAnalyzer{
                     continue;
                 }
                 if (action.equalsIgnoreCase("acc")) {
-                    System.out.println(action);
-                    System.out.println("规约成功!");
+//                    System.out.println(action);
+                    System.out.println("Proses Kompile Sukses!");
+                    System.out.println();
                     ArrayList<Node> children = new ArrayList<>();
                     children.add(nodeStack.pop());
                     nodeStack.push(semanticAnalyer.semanticAnalyzer(0,children));
